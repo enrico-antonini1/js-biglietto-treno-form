@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="./js/script.js"></script>
+    <main>
+        <!-- Sezione subito visibile per raccolta dati utente -->
+        <div class="container">
+            <form class="row">
+                <div class="col-12 col-md-4">
+                    <label for="km">Inserisci numero km</label>
+                    <input type="number" id="km">
+                </div>
+                <div class="col-12 col-md-4">
+                    <label for="age">Inserisci la tua età</label>
+                    <input type="number" id="age">
+                </div>
+                <div class="col-12 col-md-4">
+                    <button>Prezzo biglietto</button>
+                </div>
+            </form>
+        </div>
+        <!-- Sezione nascosta che appare a seguito del click sul bottone -->
+         <div class="container d-none">
+            <p>Prezzo biglietto</p>
+         </div>
+    </main>
+</body>
+
+</html>
