@@ -17,19 +17,19 @@
             <form class="row">
                 <div class="col-12 col-md-4">
                     <label for="km">Inserisci numero km</label>
-                    <input type="number" id="km">
+                    <input type="text" id="km">
                 </div>
                 <div class="col-12 col-md-4">
                     <label for="age">Inserisci la tua età</label>
-                    <input type="number" id="age">
+                    <input type="text" id="age">
                 </div>
-                <div class="col-12 col-md-4">
-                    <button>Prezzo biglietto</button>
+                <div class="col-12 col-md-4" >
+                    <button id="button" type="submit">Prezzo biglietto</button>
                 </div>
             </form>
         </div>
         <!-- Sezione nascosta che appare a seguito del click sul bottone -->
-         <div class="container d-none">
+         <div class="container d-none" id="ticket">
             <p>Prezzo biglietto</p>
          </div>
     </main>
